@@ -1,0 +1,237 @@
+/* Estrutura do site
+------------------------------------ */
+body {
+	background: #bbd9f1 url(../img/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1938e9;
+}
+
+/* Logo 
+------------------------------------ */
+#logo h1 {
+	float: left;
+}
+
+
+#logo a {
+	width: 248px;
+	height: 21px;
+	display: block;
+	color: #004492;
+}
+
+
+/* Barra de navegação 
+------------------------------------ */
+header {
+	padding: 15px 0;
+	height: 55px;
+}
+
+
+header nav a:hover{
+    color: #004492;
+    background: white;
+}
+
+
+nav ul {
+	list-style: none;
+	margin: 20px;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid #535858;
+}
+
+/* Principal 
+------------------------------------ */
+#conteudo {
+	width: 710px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+
+#capa {
+	width: 1080px;
+	height: 321px;
+}
+
+
+aside {
+	width: 350px;
+	float: right;
+	background: #C0C0C0;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+section#visita {
+	background: #708090;
+	padding: 10px 27px 27px 27px;
+	margin-top: 20px;
+}
+
+section#galeria {
+	padding: 0 27px 0 27px;
+}
+
+section#galeria a {
+	display: block;
+	background: url(../img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 17px 15px 17px 15px;
+	margin: 10px 0 0 20px;
+}
+
+section#galeria img {
+	margin-left: 2px;
+	margin-top: 3px;
+}
+
+section#postagens a{
+	color: #004492;
+}
+
+section#postagens a:hover{
+	color: #ffffff;
+	padding: 5px;
+}
+
+section#fotos {
+	float: left;
+}
+
+section#fotos a {
+	display: block;
+	float: left;
+	padding: 17px 15px 17px 15px;
+	margin: 10px 0 0 20px;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.8);
+	border-radius: 20px ;
+	background-color: rgb(183, 208, 255);
+}
+
+article#video {
+	width: 682px;
+	height: 374px;
+	padding: 20px 0px 30px 0px;
+}
+
+article#mapa {
+	width: 682px;
+	padding: 30px 0px 20px 0px;
+}
+
+article#publicacoes {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 25px;
+}
+
+article#cidades {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 37px;
+}
+
+article#turismo {
+	font-size: 1.5em;
+}
+
+article#turismo h1{
+	color: blue;
+}
+
+h3 {
+	color: #004492;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #004492;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0;
+}
+
+.campo{
+	margin: 2px 0px 2px 0px;
+}
+
+/* footer
+------------------------------------ */
+footer {
+	clear: both;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url(../img/fundo-rodape.png) no-repeat center top;
+	margin-top: 20px;
+}
+
+footer>p a {
+	padding: 2px 10px;
+}
+
+
+/* Formulários
+------------------------------------ */
+input {
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	border: none;
+	font-size: 1em;
+}
+
+input.campo {
+	border:1px solid #ada484;
+}
+
+input.botao {
+	background: #005a8f;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+}
+
+input.botao:hover{
+	background: #1938e9;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	display: none;
+}
